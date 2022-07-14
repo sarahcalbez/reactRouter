@@ -2,11 +2,11 @@
 .cabecalho {
     background-color: var(--cor-contraste-claro);
     border-radius: 0 0 10px 10px;
-    box-shadow: var(--sombra);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     height: 4.75rem;
+    box-shadow: var(--sombra);
 }
 
 .menu-hamburguer {
