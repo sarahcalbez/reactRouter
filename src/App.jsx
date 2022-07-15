@@ -3,8 +3,11 @@ import './assets/css/base/base.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
+import Products from './pages/Products';
 import Page404 from './pages/Page404';
+import Login from './pages/Login';
 import Cabecalho from "./components/Cabecalho";
+
 
 function App() {
 
@@ -18,6 +21,12 @@ function App() {
         </Route>
         <Route path='/about'>
           <About />
+        </Route>
+        <Route path='/products'>
+          <Products />
+        </Route>
+        <Route path='/login'>
+          <Login />
         </Route>
         <Route>
           <Page404 />  

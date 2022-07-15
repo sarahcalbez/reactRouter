@@ -9,6 +9,19 @@
     box-shadow: var(--sombra);
 }
 
+.input {
+    margin-top: 1rem;
+    background-color: var(--cor-contraste-claro);
+    border-radius: 10px 10px 10px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 3rem;
+    box-shadow: var(--sombra);
+    display:inline;
+    flex-direction:row;
+    align-items:center;
+
+}
+
 .menu-hamburguer {
     width: 1.5rem;
     height: .75rem;
@@ -92,6 +105,12 @@
     background-color: var(--cor-primaria);
     color: var(--cor-contraste-claro);
     border: none;
+    font-size: var(--fonte-tamanho-menu-cabecalho-item);
+    font-weight: var(--fonte-peso-menu-cabecalho-item);
+}
+
+.botao-simples--adicionar {
+    color: var(--cor-primaria);
 }
 
 .menu-cabecalho--ativo {
@@ -150,3 +169,4 @@
         padding: 1rem 1.5rem;
     }
 }
+
