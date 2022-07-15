@@ -19,8 +19,8 @@ const Cabecalho = () => {
             <nav className="menu-cabecalho">
                 <ul className="menu-itens">
                     {/* When you use the Link tag the webpage didn't reload when you click on the menu */}
-                    <li><Link to="#" className="menu-item menu-item--entrar">Login</Link></li>
-                    <li><Link to="#" className="menu-item">Products</Link></li>
+                    <li><Link to="/login" className="menu-item menu-item--entrar">Login</Link></li>
+                    <li><Link to="/products" className="menu-item">Products</Link></li>
                     <li><Link to="/" className="menu-item">Blog</Link></li>
                     <li><Link to="/about" className="menu-item">About</Link></li>
                 </ul>
