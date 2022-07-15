@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/css/componentes/botao.css';
 import '../assets/css/componentes/cabecalho.css';
+import '../assets/css/componentes/botao.css';
 
 const Login = () => {
 
@@ -19,13 +20,13 @@ const Login = () => {
             {/* <br></br> */}
             <label className="cartao__titulo_login">
               Password
-              <input className="input" type="text" name="keyword" />
+              <input className="input" type="password" name="keyword" />
             </label>
           </label>
         </div>
       </section>
       <section className="container flex flex--centro">
-        <button className="menu-item menu-item--entrar" type="submit" onclick="submitForm()">Enter</button>
+        <button className="botao__login" type="submit" onclick="submitForm()">Enter</button>
       </section>
 
     </main>

@@ -10,7 +10,6 @@
 }
 
 .input {
-    font-size: var(--fonte-tamanho-cartao-titulo);
     margin-top: 1rem;
     background-color: var(--cor-contraste-claro);
     border-radius: 10px 10px 10px 10px;
